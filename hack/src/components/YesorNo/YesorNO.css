@@ -1,0 +1,100 @@
+body{
+    background-color:#fff;
+    background: none;
+}
+.inputsec{
+    background-color: #eaeaee;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+}
+.inputsec img{
+   background-color:#fff;
+    padding: 10px;
+    width: 100px;
+    margin-left:0px;
+    margin-right: 10px;
+
+}
+.inputsec button{
+    margin:5px;
+    border-radius: 6px;
+    font-weight: 500;
+    height: 40px;
+    display: relative;
+    left:0;
+}
+.Change{
+    background-color: black;
+    color:#fff;
+}
+/* Add this to your CSS file */
+
+.input-below {
+    margin-top: 10px; /* Adjust this value to add spacing between the buttons and the input */
+  }
+  
+  .input-below inputsec {
+    display: block;
+    margin-top: 10px; /* Adjust this value to add spacing between the input and other elements */
+  }
+  
+  .button-group {
+    margin-top: 10px; /* Adjust this value to add spacing between the buttons */
+  }
+  
+  .button-group button {
+    margin-right: 10px; /* Adjust this value to add spacing between the buttons */
+  }
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+
+}  
+.addother{
+    position: relative;
+    left:50%;
+    margin: 15px;
+
+}
+.remove{
+  position:relative;
+  left:20px;
+  top:5px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+}
+body{font-family:Arial,sans-serif;margin:20px}label{display:block;margin-bottom:5px}input{width:100%;padding:8px;margin-bottom:10px;box-sizing:border-box}button{background-color:#4caf50;color:white;padding:10px 15px;border:none;border-radius:5px}button:hover{background-color:#45a049}#m_result{margin-top:20px}

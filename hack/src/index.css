@@ -1,0 +1,9 @@
+
+.custom-Link {
+    text-decoration: none;
+    color: inherit;
+}
+  
+.custom-Link svg {
+    fill: currentColor; /* Use the current text color for the SVG fill */
+}

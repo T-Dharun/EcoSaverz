@@ -1,0 +1,38 @@
+.billb {
+    
+    background-size: cover; /* or 'contain' if you prefer */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: linear-gradient(to right,rgb(41, 15, 154),rgb(19, 85, 160),rgb(21, 224, 231),rgb(5, 9, 246));
+    margin: 0;
+    padding: 25px;
+    height: 100vh;
+}
+
+.get{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin:30px;
+
+    padding: 20px;
+}
+.get div{
+    font-weight: 800;
+    margin:5px;
+}
+.enter{
+    background-color: #898989;
+    position: relative;
+    left:40%;
+    margin:0;
+   
+    font-weight: bolder;
+}
+.get input{
+    border: 2px solid #fff;
+    padding: 5px;
+}

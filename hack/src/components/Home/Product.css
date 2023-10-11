@@ -1,0 +1,13 @@
+.product{
+
+    background-color:#ddd6d6;
+    margin:15px;
+    border-radius: 10px;
+}
+.product div{
+    display: flex;
+    flex-direction: column;
+}
+.product img{
+    margin:10px;
+}

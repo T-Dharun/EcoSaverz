@@ -1,0 +1,222 @@
+/*-------------------------------------------Login page----------------------------------------------------------*/
+.LoginPage{
+    background-image: url(../../Assets/background.jpeg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.container{
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 200% !important;
+    backdrop-filter: blur(20px);
+    
+}
+.Underline{
+    width: 62px;
+    height:3px;
+    border-radius: 9px;
+    background-color: #fff;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+    margin:auto;
+    color:#fff;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px purple; /* For WebKit browsers like Chrome and Safari */
+   
+}
+.pl-3{
+    padding-left: 5px;
+}
+.inputs{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+    margin:auto;
+}
+.inputs .input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    padding-left:3px;
+    background:transparent;
+    border-radius: 35px;
+    color:black;
+    border:1px solid black;
+
+}
+
+.input img{
+    margin:0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 65% ;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 19px;
+    
+    
+
+}
+.Enter{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin:auto;
+    
+}
+.Enter .Signup{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 75px;
+    color:#fff;
+}
+.Enter .Signup:hover{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 12px;
+    
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 85px;
+    cursor: pointer;
+}
+
+
+.Enter .Login{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 75px;
+    cursor: pointer;
+    color:#fff;
+}
+.Enter .Login:hover{
+    margin-top: 20px;
+    background-color: purple;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    height: 40px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 80px;
+    cursor: pointer;
+    color:#fff;
+}
+.google{
+    margin-top: 20px;
+    margin-left:6%;
+    background-color: #eaeaea;
+    width: 55%;
+    color:purple;
+    border: 2px solid black;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 0.95em;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+.google:hover{
+    cursor: pointer;
+    color:white;
+    background-color: purple;
+}
+.gray{
+    background-color:#797979 !important;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:white;
+
+}
+.forgot span{
+    color:darkblue;
+}
+.forgot span:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Line{
+    border: 2px solid #fff;
+    width: 80%;
+    margin:auto;
+    margin-top: 18px;
+}
+.otherLogin div img{
+   background-color: #fff;
+   padding: 5px;
+   border-radius: 12px;
+}
+.otherLogin div {
+    display: grid;
+    justify-content: center;
+    
+}
+.otherLogin div :hover{
+    background-color: #eaeaea;
+    border: 2px solid #797979;
+}
+.otherLogin p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    margin:0;
+    font-weight: bolder;
+}
+.otherLogin{
+    height: 100%;
+}
+.bu{
+    position: relative;
+    left:40%;
+}
+
+@media (max-width: 576px){
+    .container{
+        padding-top: 20%;
+    }
+}
+
+/*-------------------------------------------End of Login page----------------------------------------------------------*/
